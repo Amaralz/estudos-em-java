@@ -1,0 +1,15 @@
+package entities;
+
+public class Productive 
+{
+	public String name;
+	public double price;
+	public int quantity;
+	
+	public double total()
+	{
+		
+		return price * quantity;
+		//System.out.printf("product data: %s,R$%2.f,%d units, total:%2.f",name,price,quantity,total);
+	}
+}

@@ -1,0 +1,15 @@
+
+public class Funções_Strings {
+
+	public static void main(String[] args) 
+	{
+		String original ="abcde FHGIJ ABC abc DEFG";
+		
+		String s01 = original.toLowerCase(); // converter para letras minusculas
+		String s01 = original.toUpperCase(); // converter para letras maiusculas
+		System.out.println("original: -" + original + "-");
+		System.out.println("toLowerCase: -"+ s01 + "-");
+
+	}
+
+}

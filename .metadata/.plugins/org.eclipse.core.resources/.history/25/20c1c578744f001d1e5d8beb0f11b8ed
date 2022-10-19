@@ -1,0 +1,38 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Productive;
+
+public class program {
+
+	public static void main(String[] args) 
+	{
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		Productive name,price,quantity;
+		
+		name = new Productive();
+		price = new Productive();
+		quantity = new Productive();
+		
+		System.out.println("====enter product data====");
+		System.out.println("name: ");
+		name.name = sc.nextLine();
+		
+		System.out.println("price: ");
+		price.price = sc.nextDouble();
+		
+		System.out.println("quantity in stock: ");
+		quantity.quantity = sc.nextInt();
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,8 @@
+package entities;
+
+public class productive 
+{
+	public String name;
+	public Double price;
+	public Int quantity;
+}
